@@ -14,6 +14,34 @@ The goal is straightforward: open the page and get things done quickly. No login
 
 If you work with APIs, logs, or just messy JSON, this should save you time.
 
+## Screenshots
+
+### Clean and readable JSON view
+![JSON Formatter Main View](./home-page)
+
+Formatted JSON with clear structure and syntax highlighting, making it easy to scan and understand.
+
+---
+
+### Search inside large JSON
+![Search Feature](./json-viewer-search)
+
+Quickly find keys and values without scrolling through large amounts of data.
+
+---
+
+### Copy specific objects
+![Copy Options](./copy-options)
+
+Copy only what you need — no more copying the entire JSON just to extract a small part.
+
+---
+
+### Dark mode
+![Dark Mode](./dark-mode)
+
+Comfortable to use during long sessions, especially when working at night.
+
 ---
 
 ## What’s different about it?
