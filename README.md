@@ -17,28 +17,28 @@ If you work with APIs, logs, or just messy JSON, this should save you time.
 ## Screenshots
 
 ### Clean and readable JSON view
-![JSON Formatter Main View](./home-page)
+![JSON Formatter Main View](./home-page.png)
 
 Formatted JSON with clear structure and syntax highlighting, making it easy to scan and understand.
 
 ---
 
 ### Search inside large JSON
-![Search Feature](./json-viewer-search)
+![Search Feature](./json-viewer-search.png)
 
 Quickly find keys and values without scrolling through large amounts of data.
 
 ---
 
 ### Copy specific objects
-![Copy Options](./copy-options)
+![Copy Options](./copy-options.png)
 
 Copy only what you need — no more copying the entire JSON just to extract a small part.
 
 ---
 
 ### Dark mode
-![Dark Mode](./dark-mode)
+![Dark Mode](./dark-mode.png)
 
 Comfortable to use during long sessions, especially when working at night.
 
