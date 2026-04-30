@@ -8,56 +8,26 @@ A simple, fast JSON formatter I built because most existing tools felt slow, clu
 
 ## About
 
-This tool is part of a small project called Dev Tools Online — a collection of useful utilities I’m building for everyday developer tasks.
+This tool is part of a small project called Dev Tools Online — a collection of useful utilities for everyday developer tasks.
 
-The goal is straightforward: open the page and get things done quickly. No login, no setup, no friction.
+The goal is simple: open the page and get things done quickly. No login, no setup, no friction.
 
-If you work with APIs, logs, or just messy JSON, this should save you time.
-
-## Screenshots
-
-### Clean and readable JSON view
-![JSON Formatter Main View](./home-page.png)
-
-Formatted JSON with clear structure and syntax highlighting, making it easy to scan and understand.
-
----
-
-### Search inside large JSON
-![Search Feature](./json-viewer-search.png)
-
-Quickly find keys and values without scrolling through large amounts of data.
-
----
-
-### Copy specific objects
-![Copy Options](./copy-options.png)
-
-Copy only what you need — no more copying the entire JSON just to extract a small part.
-
----
-
-### Dark mode
-![Dark Mode](./dark-mode.png)
-
-Comfortable to use during long sessions, especially when working at night.
+If you work with APIs, logs, or messy JSON, this should save you time.
 
 ---
 
 ## What’s different about it?
 
-There are a lot of JSON formatters out there. Most of them do the basics, but they often miss the little things that actually matter when you’re working with real data.
+There are a lot of JSON formatters out there. Most of them handle the basics, but they often miss the small details that matter when working with real data.
 
-This one focuses on usability and speed, with features that make debugging and exploring JSON much easier:
+This tool focuses on usability and speed:
 
-- Built to handle large JSON without freezing
-- Clean UI that doesn’t get in your way
-- Everything works instantly in the browser
-- No data is stored or sent anywhere
+- Handles large JSON without freezing  
+- Clean UI that stays out of your way  
+- Everything runs instantly in the browser  
+- No data is stored or sent anywhere  
 
-
-
-But more importantly, it includes features I personally kept missing in other tools 👇
+It also includes features I kept missing in other tools 👇
 
 ---
 
@@ -66,80 +36,150 @@ But more importantly, it includes features I personally kept missing in other to
 ### 🔍 Search inside JSON
 Quickly find keys or values, even in large files.
 
----
-
 ### 📋 Copy specific objects
-You can copy individual parts of the JSON, not just the whole thing.
-
-Super useful when you only need a nested object.
-
----
+Copy individual parts of the JSON instead of the whole thing.  
+Useful when working with nested data.
 
 ### 🛠 Auto-fix JSON
-If your JSON is slightly broken, the tool tries to fix common issues automatically so you don’t have to.
-
----
+Fixes common JSON issues automatically so you don’t have to.
 
 ### 📂 Upload JSON files
 Drop a file and start working immediately.
 
----
-
 ### 🔗 Auto-paste from links
-Paste a URL that with autopaste, and it loads directly into the viewer.
-
----
+Paste a URL with JSON and load it directly into the viewer.
 
 ### 🌙 Dark mode
-Easy on the eyes for long sessions.
+Comfortable to use during long sessions.
 
 ---
 
-### ✨ Core functionality
-- Format / beautify JSON
-- Minify JSON
-- Validate structure
-- Syntax highlighting
-- One-click copy
-- Works on desktop and mobile
+## Core functionality
+
+- Format / beautify JSON  
+- Minify JSON  
+- Validate structure  
+- Syntax highlighting  
+- One-click copy  
+- Works on desktop and mobile  
+
+---
+
+## Screenshots
+
+### Clean and readable JSON view
+![JSON Formatter Main View](./home-page.png)
+
+Formatted JSON with clear structure and syntax highlighting.
+
+---
+
+### Search inside large JSON
+![Search Feature](./json-viewer-search.png)
+
+Find keys and values instantly without scrolling.
+
+---
+
+### Copy specific objects
+![Copy Options](./copy-options.png)
+
+Copy only what you need.
+
+---
+
+### Dark mode
+![Dark Mode](./dark-mode.png)
+
+Better for long sessions and night use.
+
+---
+
+## URL Parameters
+
+You can control the tool directly through the URL. Useful for automation, sharing, and faster workflows.
+
+All parameters can be combined.
+
+### Available parameters
+
+- `?paste=1`  
+  Auto-pastes JSON from your clipboard on load.
+
+- `?tab=viewer`  
+  Opens the tree viewer (only if JSON is valid).
+
+- `?search=<query>`  
+  Pre-fills the search input.
+
+- `?data=<url-encoded-json>`  
+  Loads JSON directly from the URL.
+
+---
+
+### Example
+?paste=1&tab=viewer&search=id
+
+
+This will:
+- paste JSON from your clipboard  
+- switch to viewer mode  
+- search for `id`
+
+---
+
+### Notes
+
+- Parameters can be combined in any order  
+- `data` must be URL-encoded  
+- `tab=viewer` only works with valid JSON  
+
+---
+
+### Use cases
+
+- Share pre-loaded JSON links  
+- Debug API responses quickly  
+- Bookmark frequent searches  
+- Speed up repetitive workflows  
 
 ---
 
 ## When is this useful?
 
-- Debugging API responses
-- Reading large JSON payloads
-- Extracting specific data quickly
-- Fixing invalid JSON
-- Cleaning JSON before sharing
+- Debugging API responses  
+- Reading large JSON payloads  
+- Extracting specific data  
+- Fixing invalid JSON  
+- Cleaning JSON before sharing  
 
 ---
 
 ## About Dev Tools Online
 
-This is just one tool in a growing collection.
+This is part of a growing collection of simple developer tools.
 
-I’m focusing on building small utilities that:
-- load fast
-- are easy to use
-- don’t require accounts
+The focus:
+- fast  
+- easy to use  
+- no accounts required  
 
-More tools are on the way.
-https://dev-toolsonline.com/
+More tools are coming.
+
+👉 https://dev-toolsonline.com/
 
 ---
 
 ## Feedback
 
-If something feels off or missing, let me know.
-
+If something feels off or missing, let me know.  
 I’m actively improving this based on real usage.
 
 ---
 
 ## Support
 
-If you find it useful, feel free to:
-- Star the repo
-- Share it
-- Use it in your workflow
+If you find it useful:
+- Star the repo  
+- Share it  
+- Use it in your workflow  
